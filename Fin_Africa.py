@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the financial inclusion model
-model = joblib.load('fin_model')  
+model = joblib.load("C:\Users\user\OneDrive\Documents\Fin Africa\fin_model.pkl")  
 
 # Title and description
 st.title("Financial Inclusion Predictor")
